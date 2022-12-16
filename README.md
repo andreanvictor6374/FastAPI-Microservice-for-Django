@@ -21,3 +21,9 @@ Click below to deploy to DigitalOcean. Be sure to grab your $100 credit [here](h
 
 
 [![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/codingforentrepreneurs/FastAPI-Microservice-for-Django/tree/main)
+
+
+## to tun locally
+```shell
+uvicorn app.main:app
+```
