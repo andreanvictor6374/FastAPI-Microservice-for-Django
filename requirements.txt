@@ -9,4 +9,4 @@ python-dotenv
 aiofiles
 python-multipart
 pillow
-pytesseract
+pytesseract==0.3.10

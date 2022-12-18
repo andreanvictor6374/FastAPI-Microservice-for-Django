@@ -33,3 +33,18 @@ uvicorn app.main:app --reload
 import secrets
 secrets.token_urlsafe(32)
 ```
+
+## test 
+```shell
+pytest -s
+```
+
+## error
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+```shell
+pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+# solution 
+sudo apt update
+sudo apt install tesseract-ocr
+sudo apt install libtesseract-dev
+```
