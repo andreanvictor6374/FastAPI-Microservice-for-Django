@@ -25,5 +25,11 @@ Click below to deploy to DigitalOcean. Be sure to grab your $100 credit [here](h
 
 ## to tun locally
 ```shell
-uvicorn app.main:app
+uvicorn app.main:app --reload
+```
+
+## Generate token
+```python
+import secrets
+secrets.token_urlsafe(32)
 ```
