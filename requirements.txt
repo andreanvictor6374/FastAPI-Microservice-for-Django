@@ -10,3 +10,4 @@ aiofiles
 python-multipart
 pillow
 pytesseract==0.3.10
+httpx

@@ -40,11 +40,14 @@ pytest -s
 ```
 
 ## error
-pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
+#### pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
 ```shell
-pytesseract.pytesseract.TesseractNotFoundError: tesseract is not installed or it's not in your PATH. See README file for more information.
-# solution 
 sudo apt update
 sudo apt install tesseract-ocr
 sudo apt install libtesseract-dev
+```
+
+#### ModuleNotFoundError: No module named 'httpx'
+```shell
+pip install httpx
 ```
